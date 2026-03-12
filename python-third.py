@@ -9,7 +9,7 @@ def greet():   #defining a function
 
 def test(name):  #function with parameter (name is the parameter)
    print("Hello, " + name)
-test("Jagriti")  # calling the function with argument
+test("Salina")  # calling the function with argument
 
 
 
