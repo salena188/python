@@ -14,4 +14,3 @@ user_name = input("Enter your name: ")
 print("Upper:" ,user_name.upper())
 print("Lower:" ,user_name.lower())
 print("length:", len(user_name))
-
