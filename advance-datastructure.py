@@ -111,4 +111,48 @@ heapq.heappush(tasks, (2, "Task 2 : Complete assignment"))
 
 print("Next Task: ", heapq.heappop(tasks) )
 
+#practise set 
+print("\n------Resume Skill Checker------")
+
+skills = ["python", "java", "aws"]
+resume = input("Enter resume text: ")
+
+for skill in skills:
+    if skill in resume.lower():
+        print(skill, "found in resume")
+    else:  
+        print(skill, "not found in resume")
+
+
+print("\n------Student Record System------")
+student = {}
+
+student["name"] = input("Enter name: ")
+student["age"] = input("Enter age: ")
+student["course"] = input("Enter course: ")
+
+print(student)
+
+print("\n------Simple Contact Book------")
+contacts = {}
+
+name = input("Enter name: ")
+number = input("Enter number: ")
+
+contacts[name] = number
+
+print(contacts)
+
+print("\n------Expense Tracker------")
+expenses = []
+
+for i in range(3):
+   amount = int(input("Enter expense: "))
+   expenses.append(amount)
+print("Expenses:", expenses)
+
+
+
+
+
 
