@@ -12,6 +12,8 @@ stack.pop()  # removing the top element of the stack
 print(stack)
 print(stack.pop())
 
+
+
 #queue
 print("-----Queue-----")
 from collections import deque
@@ -45,6 +47,8 @@ served = orders.popleft()
 print("Served:", served)
 
 print("Remaining Orders:", orders)
+
+
 
 #linkedlist
 print("-----Linkedlist-----")
@@ -85,5 +89,26 @@ playlist.add_song("Song C")
 
 playlist.show_playlist()
 
+
+#Heap
+print("-----Heap-----")
+import heapq
+
+patients = []
+
+heapq.heappush(patients, (2, "Patient B"))
+heapq.heappush(patients, (1, "Patient A"))
+heapq.heappush(patients, (3, "Patient C"))
+
+print("Next Patient:", heapq.heappop(patients))
+
+#Heap practise 
+print("\n")
+tasks =[]
+heapq.heappush(tasks, (3, "Task 3 : watch movie"))
+heapq.heappush(tasks, (1, "Task 1 : Fix bug"))
+heapq.heappush(tasks, (2, "Task 2 : Complete assignment"))
+
+print("Next Task: ", heapq.heappop(tasks) )
 
 
